@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bot Monitor</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        input {
+            padding: 10px;
+            margin: 8px;
+            width: 250px;
+        }
+        button {
+            padding: 10px 20px;
+            background: green;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+        .project {
+            background: #222;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>🟢 Bot Monitor Panel</h1>
+
+<input id="name" placeholder="Project Name"><br>
+<input id="url" placeholder="Bot URL"><br>
+<button onclick="addProject()">Add Project</button>
+
+<h2>Projects</h2>
+<div id="list"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
